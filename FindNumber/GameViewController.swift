@@ -125,7 +125,7 @@ class GameViewController: UIViewController {
         }
         
         let showRecord = UIAlertAction(title: "Показать рекорд", style: .default) { [weak self] (_) in
-            // TODO: - RECORD VIEW CONTROLLER
+            self?.performSegue(withIdentifier: "recordVC", sender: nil)
         }
         
         let menuAction = UIAlertAction(title: "Перейти в меню", style: .destructive) { [weak self] (_) in
@@ -138,6 +138,10 @@ class GameViewController: UIViewController {
         alert.addAction(showRecord)
         alert.addAction(menuAction)
         alert.addAction(cancelAction)
+        
+        if let popover = alert.popoverPresentationController {
+            popover.sourceView = statusLabel
+        }
         
         present(alert, animated: true, completion: nil)
     }

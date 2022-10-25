@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5242A8A2907F5FF0014CC57 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5242A892907F5FF0014CC57 /* RecordViewController.swift */; };
 		B54B4A4F290335AA00164334 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B4A4E290335AA00164334 /* GameViewController.swift */; };
 		B59B9EAE2906771000891C5E /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B9EAD2906771000891C5E /* SelectTimeViewController.swift */; };
 		B59B9EB02906777E00891C5E /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B9EAF2906777E00891C5E /* SettingsTableViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5242A892907F5FF0014CC57 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		B54B4A4E290335AA00164334 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B59B9EAD2906771000891C5E /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
 		B59B9EAF2906777E00891C5E /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				B59B9EAD2906771000891C5E /* SelectTimeViewController.swift */,
 				B59B9EAF2906777E00891C5E /* SettingsTableViewController.swift */,
 				B59B9EB1290684C800891C5E /* Settings.swift */,
+				B5242A892907F5FF0014CC57 /* RecordViewController.swift */,
 			);
 			path = FindNumber;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				B5F765222902C3700094A963 /* AppDelegate.swift in Sources */,
 				B59B9EAE2906771000891C5E /* SelectTimeViewController.swift in Sources */,
 				B59B9EB2290684C800891C5E /* Settings.swift in Sources */,
+				B5242A8A2907F5FF0014CC57 /* RecordViewController.swift in Sources */,
 				B54B4A4F290335AA00164334 /* GameViewController.swift in Sources */,
 				B5F765242902C3700094A963 /* SceneDelegate.swift in Sources */,
 				B5B3B7042904840A00ADE5BB /* Game.swift in Sources */,
